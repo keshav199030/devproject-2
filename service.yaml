@@ -4,8 +4,8 @@ metadata:
   name: my-service
 spec:
   selector:
+    app: new
   type: NodePort
-     app: new
   ports:
     - protocol: TCP
       port: 80
